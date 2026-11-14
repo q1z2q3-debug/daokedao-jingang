@@ -34,7 +34,12 @@
 
 正宗分主线一句话：须菩提两问（云何应住、云何降伏其心），佛陀一路只答一件事——**应无所住而生其心**。二十九分，都是在从不同角度拆解"住"这个字。
 
-## 三、文件在哪
+## 三、引用与存档
+
+- DOI：**10.5281/zenodo.24222027**（<https://doi.org/10.5281/zenodo.24222027>，Zenodo 存缴四件：md／pdf／html／apk）
+- 站点：<https://q1z2q3-debug.github.io/daokedao-jingang/>
+
+## 四、文件在哪
 
 | 文件 | 用途 | 体量 |
 |---|---|---|
@@ -56,7 +61,7 @@ bash apk/build.sh                 # 离线 APK（用共用签名证书）
 
 站点：<https://q1z2q3-debug.github.io/daokedao-jingang/>（`/chapters/` 32 分逐页、`/preface.html` 卷首、`/afterword.html` 后记、`/appendix.html` 附录、`/downloads/`、`/llms.txt`、`/sitemap.xml`）。
 
-## 四、校记：原稿三处错位已按经序归位
+## 五、校记：原稿三处错位已按经序归位
 
 第一至十二分交来的原稿中，第六、七、八三分的分题与所标经文互相错位：
 

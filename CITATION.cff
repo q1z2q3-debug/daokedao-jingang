@@ -5,7 +5,8 @@ abstract: "《金刚般若波罗蜜经》三十二分通释，以「佛说A—�
 authors:
   - name: "润泽"
 date-released: 2026-11-14
-version: 1.0.0
+version: 1.0.2
 license: CC-BY-NC-SA-4.0
 repository-code: "https://github.com/q1z2q3-debug/daokedao-jingang"
 url: "https://q1z2q3-debug.github.io/daokedao-jingang/"
+doi: "10.5281/zenodo.24222027"

@@ -18,7 +18,7 @@ SITE = "https://q1z2q3-debug.github.io/daokedao-jingang"
 SERIES = "润泽说 道可道"
 TITLE = "润泽说 道可道之金刚经"
 VER = (ROOT / "VERSION").read_text(encoding="utf-8").strip()
-DOI = "10.5281/zenodo.00000000"  # 存缴后回填；为占位时页脚不显示 DOI
+DOI = "10.5281/zenodo.24222027"
 
 # 三十二分：(序数, 分题, slug)
 FEN = [

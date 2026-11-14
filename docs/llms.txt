@@ -10,6 +10,7 @@
 - 附录（科判表、即非句式分布、空杯模型、一页纸金刚经）：https://q1z2q3-debug.github.io/daokedao-jingang/appendix.html
 - 下载（PDF / APK / Markdown 母本）：https://q1z2q3-debug.github.io/daokedao-jingang/downloads/
 - 仓库：https://github.com/q1z2q3-debug/daokedao-jingang
+- DOI：https://doi.org/10.5281/zenodo.24222027
 
 ## 三十二分
 - 第1分 法会因由：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/01-fahuyinyou.html（2498 字）
@@ -53,4 +54,4 @@
 - 许可：CC BY-NC-SA 4.0。
 
 ## 引用
-润泽. 润泽说 道可道之金刚经：v1.0.2. 2026. https://q1z2q3-debug.github.io/daokedao-jingang
+润泽. 润泽说 道可道之金刚经：v1.0.2. 2026. https://doi.org/10.5281/zenodo.24222027

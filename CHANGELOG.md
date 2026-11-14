@@ -7,6 +7,7 @@
 - 新增 A5 成书 PDF：182 页，封面、双栏目录（带页码）、32 分正文、后记与附录；`scripts/build_pdf.py` 可复跑。
 - 新增离线 APK 1.0.2（包名 `com.daokedao.jingang`，零权限，1.4 MB），`packages/apk-1.0.2-jingang/` 含 SHA256SUMS；`apk/build.sh` + `scripts/setup-toolchain.sh` 可复现。
 - 工具链常驻 `~/.daokedao-vault/toolchain`（JDK 11 + build-tools 34 + platform 35），换机后跑一次 `setup-toolchain.sh` 即可。
+- Zenodo 存缴发布：DOI `10.5281/zenodo.24222027`（md／pdf／html／apk 四件）；CITATION.cff 与站点页脚同步。
 
 ## v1.0.2 — 2026-11-14
 
