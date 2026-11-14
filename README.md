@@ -41,12 +41,20 @@
 | [`book/润泽说-道可道之金刚经·通释.md`](book/润泽说-道可道之金刚经·通释.md) | **主本**。Markdown 母本，可印制、可 diff、可再加工 | 235 KB |
 | [`book/金刚经·阅读版.html`](book/金刚经·阅读版.html) | **阅读版**。单文件自包含，无外链、无脚本，离线可开 | 283 KB |
 | [`scripts/build_html.py`](scripts/build_html.py) | **构建脚本**。md → pandoc → 后处理 → 内嵌 CSS 模板，可复跑重建 | — |
+| [`book/润泽说 道可道之金刚经.pdf`](book/润泽说%20道可道之金刚经.pdf) | **A5 成书 PDF**。182 页，封面＋双栏目录＋32 分正文＋附录 | 1.5 MB |
+| [`packages/apk-1.0.2-jingang/道可道-金刚经-1.0.2.apk`](packages/apk-1.0.2-jingang) | **安卓离线包**。零权限、字体内置、断网可读 | 1.4 MB |
 
 重跑构建：
 
 ```bash
-python3 scripts/build_html.py     # 需 pandoc
+python3 scripts/build_html.py     # 阅读版（需 pandoc）
+python3 scripts/build_site.py     # docs/ 站点：首页／卷首／32 分逐页／后记／附录／下载
+python3 scripts/build_pdf.py      # A5 成书 PDF（需 weasyprint）
+bash scripts/setup-toolchain.sh   # 首次：拉 JDK 11 + Android build-tools（常驻 ~/.daokedao-vault/toolchain）
+bash apk/build.sh                 # 离线 APK（用共用签名证书）
 ```
+
+站点：<https://q1z2q3-debug.github.io/daokedao-jingang/>（`/chapters/` 32 分逐页、`/preface.html` 卷首、`/afterword.html` 后记、`/appendix.html` 附录、`/downloads/`、`/llms.txt`、`/sitemap.xml`）。
 
 ## 四、校记：原稿三处错位已按经序归位
 

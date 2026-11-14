@@ -3,3 +3,10 @@
 /tmp/
 __pycache__/
 *.pyc
+
+# APK 构建中间物（assets 与 build 可由 apk/prepare-assets.py + apk/build.sh 重建）
+apk/build/
+apk/dist/
+apk/assets/book.html
+apk/assets/fonts/*.woff
+book/_print.html

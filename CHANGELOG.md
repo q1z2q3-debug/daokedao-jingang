@@ -1,5 +1,13 @@
 # 更新记录
 
+## v1.0.2 · 2026-11-14（站点与产物增补）
+
+- 站点由 2 页扩到 39 页：`/chapters/` 32 分逐页（每分七段，可单独引用）、`/preface.html` 卷首体例、`/afterword.html` 后记、`/appendix.html` 附录五篇、`/downloads/`。
+- 机器入口：`llms.txt`、`sitemap.xml`（39 URL）、`robots.txt`（放行 GPTBot／OAI-SearchBot／ClaudeBot／PerplexityBot 等），favicon。
+- 新增 A5 成书 PDF：182 页，封面、双栏目录（带页码）、32 分正文、后记与附录；`scripts/build_pdf.py` 可复跑。
+- 新增离线 APK 1.0.2（包名 `com.daokedao.jingang`，零权限，1.4 MB），`packages/apk-1.0.2-jingang/` 含 SHA256SUMS；`apk/build.sh` + `scripts/setup-toolchain.sh` 可复现。
+- 工具链常驻 `~/.daokedao-vault/toolchain`（JDK 11 + build-tools 34 + platform 35），换机后跑一次 `setup-toolchain.sh` 即可。
+
 ## v1.0.2 — 2026-11-14
 
 - 撤下附录六「自性五句与风幡公案 · 以空杯为镜」。
