@@ -4,7 +4,9 @@
 输入：book/润泽说-道可道之金刚经·通释.md
 输出：book/金刚经·阅读版.html
 """
-import pathlib, re, subprocess
+import pathlib, re, subprocess, sys
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import daokedao_book as kit
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 BOOK = ROOT / "book"
@@ -76,18 +78,6 @@ body{margin:0;background:var(--paper);color:var(--ink);
   -webkit-font-smoothing:antialiased;line-height:1.95;}
 .page{max-width:780px;margin:0 auto;padding:56px 28px 80px;}
 
-.cover{border:1px solid var(--line);background:var(--paper2);padding:74px 40px 62px;
-  text-align:center;margin-bottom:52px;position:relative;}
-.cover::before{content:"";position:absolute;inset:12px;border:1px solid #EBE4D8;pointer-events:none;}
-.cover .series{font-size:12.5px;letter-spacing:.32em;color:var(--brown);margin-bottom:26px;}
-.cover h1{font-size:42px;font-weight:700;letter-spacing:.14em;margin:0 0 6px;line-height:1.45;}
-.cover .sub{font-size:15px;color:var(--brown);letter-spacing:.1em;margin-bottom:26px;}
-.cover .rule{width:56px;height:2px;background:var(--ochre);margin:26px auto 24px;}
-.cover .verse{font-size:15px;color:var(--brown);letter-spacing:.06em;line-height:2.1;}
-.cover .meta{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 0;font-size:12px;color:#9C8E7C;letter-spacing:.12em;margin-top:30px;}
-.cover .meta span{white-space:nowrap;}
-.cover .meta span:not(:last-child)::after{content:"　·　";color:#C4B9A8;}
-
 .toc{background:var(--paper2);border:1px solid var(--line);padding:22px 24px;margin-bottom:52px;}
 .toc h4{margin:0 0 14px;font-size:13px;letter-spacing:.22em;color:var(--brown);font-weight:400;}
 .toc ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:2px 20px;}
@@ -134,10 +124,6 @@ table.t td{color:var(--ink2);}
 
 @media (max-width:640px){
   .page{padding:30px 17px 54px;}
-  .cover{padding:52px 24px 44px;}
-  .cover h1{font-size:30px;}
-  .cover .verse{font-size:13.5px;}
-  .cover .meta{font-size:10.5px;letter-spacing:.04em;margin-top:26px;}
   .toc ol{grid-template-columns:1fr;}
   h2.part .pt{font-size:22px;}
   h2{font-size:21px;margin-top:42px;}
@@ -145,6 +131,9 @@ table.t td{color:var(--ink2);}
   li{font-size:15.3px;}
   table.t{font-size:12.5px;display:block;overflow-x:auto;white-space:nowrap;}
 }
+
+"""
+CSS = CSS + kit.COVER_CSS + kit.FIG_CSS + """
 """
 
 HTML = """<!DOCTYPE html>
@@ -158,13 +147,29 @@ __FAVICON__
 </head>
 <body>
 <div class="page">
-  <div class="cover">
-    <div class="series">润泽说 · 道可道</div>
-    <h1>金　刚　般　若</h1>
-    <div class="sub">《金刚般若波罗蜜经》三十二分通释</div>
-    <div class="rule"></div>
-    <div class="verse">一切有为法，如梦幻泡影，<br>如露亦如电，应作如是观。</div>
-    <div class="meta"><span>姚秦鸠摩罗什译本</span><span>般若三段范式</span><span>三才五蕴太极空杯</span></div>
+  <section class="cover">
+    <div class="series">润 泽 说 · 道 可 道</div>
+    <div class="stage">
+      <div class="gatha l">如露亦如电<br>应作如是观</div>
+      <div class="center">
+        <h1>金刚般若</h1>
+        <div class="sub">《金刚般若波罗蜜经》三十二分通释</div>
+        <div class="tag">三 十 二 分</div>
+        <div class="seal">金</div>
+      </div>
+      <div class="gatha r">一切有为法<br>如梦幻泡影</div>
+    </div>
+    <div class="meta"><span>姚秦鸠摩罗什译本</span><span>般若三段范式</span><span>三才五蕴太极空杯</span><span>二〇二六年十一月</span></div>
+  </section>
+
+  <div class="frontis">
+    <div class="fseries">润 泽 说 · 道 可 道</div>
+    <div class="ftitle">金刚般若</div>
+    <div class="fsub">《金刚般若波罗蜜经》三十二分通释</div>
+    <div class="frule"></div>
+    <div class="fname">润　泽　著</div>
+    <div class="fmeta">底本　姚秦三藏法师鸠摩罗什译本（通行本）<br>体例　三十二分 · 每分七段<br>范式　佛说A · 即非A · 是名A<br>版本　v1.1 · 二〇二六年十一月</div>
+    <div class="fseal">金</div>
   </div>
   <nav class="toc"><h4>目　录</h4><ol>__NAV__</ol></nav>
   <main>__BODY__</main>
