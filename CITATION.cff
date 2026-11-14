@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "若引用本书，请用下列格式。"
+title: "润泽说 道可道之金刚经"
+abstract: "《金刚般若波罗蜜经》三十二分通释，以「佛说A—即非A—是名A」三段范式逐分拆解。"
+authors:
+  - name: "润泽"
+date-released: 2026-11-14
+version: 1.0.0
+license: CC-BY-NC-SA-4.0
+repository-code: "https://github.com/q1z2q3-debug/daokedao-jingang"
+url: "https://q1z2q3-debug.github.io/daokedao-jingang/"
