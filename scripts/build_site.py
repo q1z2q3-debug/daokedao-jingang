@@ -92,7 +92,42 @@ footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
 """
 
 NAV = [("/", "首页", "home"), ("/book.html", "全书", "book"), ("/chapters/", "三十二分", "chapters"),
-       ("/afterword.html", "后记", "afterword"), ("/downloads/", "下载", "downloads")]
+       ("/english/", "英文", "english"), ("/afterword.html", "后记", "afterword"), ("/downloads/", "下载", "downloads")]
+
+EN_POSTS = {  # 分号 → dev.to 帖（canonical 一律指回本分页）
+ 1:"https://dev.to/q1z2q3debug/diamond-sutra-1-fa-hui-yin-you-the-sutra-opens-with-lunch-1p7j",
+ 2:"https://dev.to/q1z2q3debug/diamond-sutra-2-shan-xian-qi-qing-the-man-born-of-emptiness-asks-where-to-put-his-mind-down-19l6",
+ 3:"https://dev.to/q1z2q3debug/diamond-sutra-3-da-cheng-zheng-zong-the-largest-promise-in-the-sutra-then-the-arithmetic-cancelled-gib",
+ 4:"https://dev.to/q1z2q3debug/diamond-sutra-4-miao-xing-wu-zhu-giving-and-the-glue-called-zhu-3869",
+ 5:"https://dev.to/q1z2q3debug/diamond-sutra-5-ru-li-shi-jian-you-cannot-recognise-a-buddha-by-his-body-4e1h",
+ 6:"https://dev.to/q1z2q3debug/diamond-sutra-6-zheng-xin-xi-you-the-doubt-about-the-fifth-five-hundred-years-4743",
+ 7:"https://dev.to/q1z2q3debug/diamond-sutra-7-wu-de-wu-shuo-no-fixed-dharma-and-a-buddha-who-talked-for-32-sections-2abm",
+ 8:"https://dev.to/q1z2q3debug/diamond-sutra-8-yi-fa-chu-sheng-a-cosmos-of-treasure-against-four-lines-53jh",
+ 9:"https://dev.to/q1z2q3debug/diamond-sutra-9-xiang-wu-xiang-the-four-fruits-each-defined-by-what-it-does-not-enter-1aam",
+ 10:"https://dev.to/q1z2q3debug/diamond-sutra-10-zhuang-yan-jing-tu-ying-wu-suo-zhu-er-sheng-qi-xin-and-the-clause-usually-dropped-3o7b",
+ 11:"https://dev.to/q1z2q3debug/diamond-sutra-11-wu-wei-fu-sheng-rivers-of-rivers-and-a-sentence-that-beats-the-count-2knm",
+ 12:"https://dev.to/q1z2q3debug/diamond-sutra-12-zun-zhong-zheng-jiao-the-place-where-four-lines-are-spoken-29j9",
+ 13:"https://dev.to/q1z2q3debug/diamond-sutra-13-ru-fa-shou-chi-the-sutra-names-itself-then-cancels-the-name-4o9b",
+ 14:"https://dev.to/q1z2q3debug/diamond-sutra-14-chi-xiang-ji-mie-xu-pu-ti-weeps-and-ren-ru-is-not-submission-4bba",
+ 15:"https://dev.to/q1z2q3debug/diamond-sutra-15-chi-jing-gong-de-three-times-a-day-for-aeons-and-xin-xin-bu-ni-403g",
+ 16:"https://dev.to/q1z2q3debug/diamond-sutra-16-neng-jing-ye-zhang-being-despised-and-heavy-karma-made-light-3bfd",
+ 17:"https://dev.to/q1z2q3debug/diamond-sutra-17-jiu-jing-wu-wo-the-question-from-section-2-answered-differently-c0b",
+ 18:"https://dev.to/q1z2q3debug/diamond-sutra-18-ti-tong-guan-five-eyes-and-a-mind-that-cannot-be-found-2e51",
+ 19:"https://dev.to/q1z2q3debug/diamond-sutra-19-fa-jie-tong-hua-if-merit-were-real-it-would-not-be-called-great-2c9j",
+ 20:"https://dev.to/q1z2q3debug/diamond-sutra-20-chi-se-chi-xiang-even-a-perfect-body-is-still-a-body-5col",
+ 21:"https://dev.to/q1z2q3debug/diamond-sutra-21-fei-shuo-suo-shuo-whoever-says-the-buddha-taught-is-slandering-him-1077",
+ 22:"https://dev.to/q1z2q3debug/diamond-sutra-22-wu-fa-ke-de-not-the-least-dharma-and-the-last-remainder-closed-602",
+ 23:"https://dev.to/q1z2q3debug/diamond-sutra-23-jing-xin-xing-shan-equality-without-a-ranking-and-the-one-formula-ph3",
+ 24:"https://dev.to/q1z2q3debug/diamond-sutra-24-fu-zhi-wu-bi-every-sumeru-heaped-with-treasure-and-one-percent-1bk7",
+ 25:"https://dev.to/q1z2q3debug/diamond-sutra-25-hua-wu-suo-hua-the-buddha-does-not-think-he-is-liberating-anyone-3o45",
+ 26:"https://dev.to/q1z2q3debug/diamond-sutra-26-fa-shen-fei-xiang-the-thirty-two-marks-and-a-wheel-turning-king-4g20",
+ 27:"https://dev.to/q1z2q3debug/diamond-sutra-27-wu-duan-wu-mie-the-trap-inside-the-negation-itself-3437",
+ 28:"https://dev.to/q1z2q3debug/diamond-sutra-28-bu-shou-bu-tan-ren-as-dwelling-not-as-gritting-your-teeth-15h4",
+ 29:"https://dev.to/q1z2q3debug/diamond-sutra-29-wei-yi-ji-jing-walking-standing-sitting-lying-and-wu-suo-cong-lai-474n",
+ 30:"https://dev.to/q1z2q3debug/diamond-sutra-30-he-li-xiang-a-world-broken-into-dust-and-what-greed-grips-15hi",
+ 31:"https://dev.to/q1z2q3debug/diamond-sutra-31-zhi-jian-bu-sheng-the-four-views-and-the-last-thing-to-put-down-4op3",
+ 32:"https://dev.to/q1z2q3debug/diamond-sutra-32-ying-hua-fei-zhen-bu-qu-yu-xiang-ru-ru-bu-dong-and-six-metaphors-for-lightning-pmp",
+}
 
 
 def head(title, desc, path, jsonld=None, act="home"):
@@ -417,6 +452,22 @@ def build():
 <p class="small">底本：姚秦鸠摩罗什译；异读随文出注。参考 <a href="{SITE}/preface.html">卷首·体例与总纲</a>。</p>
 </div></main>""" + foot(), encoding="utf-8")
 
+    # ---- 英文页（32 分逐分，canonical 指回本分页）----
+    en_rows = "".join(f"""<div class="row"><div class="no">{r['i']:02d}</div>
+<div><h3><a href="{EN_POSTS[r['i']]}" rel="noopener">Section {r['i']} · {r['name']}</a></h3>
+<p class="small" style="margin:0;">canonical <a href="{SITE}/chapters/{r['i']:02d}-{r['slug']}.html">第 {r['i']} 分</a></p></div>
+<div class="go"><a href="{EN_POSTS[r['i']]}" rel="noopener">dev.to</a></div></div>""" for r in recs)
+    (DOCS / "english").mkdir(exist_ok=True)
+    (DOCS / "english" / "index.html").write_text(
+        head(f"英文稿｜{TITLE}", "《金刚经》三十二分的英文短论，一分一篇，canonical 一律指回中文分页。",
+             "/english/", None, act="english") + f"""<main><div class="wrap">
+<p class="eyebrow">English · dev.to</p>
+<h1>三十二分，一分一篇英文</h1>
+<p class="lede">每一分写成一篇英文短论：起于一句经文，中间只做一处字源或名相的分层，落在一个可自测的问题上。canonical 一律指回本分的中文页——同一个论点，两个入口都能核。</p>
+<p class="small">全部 32 篇　·　账号 <a href="https://dev.to/q1z2q3debug" rel="noopener">q1z2q3debug</a>　·　总目 <a href="{SITE}/chapters/">三十二分</a>　·　书站总索引 <a href="https://q1z2q3-debug.github.io/runze-daokedao/devto/">全系列英文稿</a></p>
+<div class="list">{en_rows}</div>
+</div></main>""" + foot(), encoding="utf-8")
+
     # ---- 下载页 ----
     pdf = next(iter(sorted((ROOT / "book").glob("*.pdf")), ), None)
     apk = next(iter(sorted((ROOT / "packages").glob("**/*.apk")), ), None) if (ROOT / "packages").exists() else None
@@ -484,7 +535,7 @@ def build():
                                              ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "PerplexityBot", "Google-Extended", "CCBot", "Bytespider"]) +
                                      f"\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
 
-    urls = ["/", "/book.html", "/preface.html", "/chapters/", "/afterword.html", "/appendix.html", "/downloads/"] + \
+    urls = ["/", "/book.html", "/preface.html", "/chapters/", "/english/", "/afterword.html", "/appendix.html", "/downloads/"] + \
            [f"/chapters/{r['i']:02d}-{r['slug']}.html" for r in recs]
     (DOCS / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
                                       "".join(f"<url><loc>{SITE}{u}</loc><lastmod>2026-11-14</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")

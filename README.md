@@ -59,7 +59,7 @@ bash scripts/setup-toolchain.sh   # 首次：拉 JDK 11 + Android build-tools（
 bash apk/build.sh                 # 离线 APK（用共用签名证书）
 ```
 
-站点：<https://q1z2q3-debug.github.io/daokedao-jingang/>（`/chapters/` 32 分逐页、`/preface.html` 卷首、`/afterword.html` 后记、`/appendix.html` 附录、`/downloads/`、`/llms.txt`、`/sitemap.xml`）。
+站点：<https://q1z2q3-debug.github.io/daokedao-jingang/>（`/chapters/` 32 分逐页、`/preface.html` 卷首、`/afterword.html` 后记、`/appendix.html` 附录、`/downloads/`、`/english/`（32 分英文稿索引）、`/llms.txt`、`/sitemap.xml`）。
 
 ## 五、校记：原稿三处错位已按经序归位
 
