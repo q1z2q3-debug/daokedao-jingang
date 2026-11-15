@@ -55,3 +55,6 @@
 
 ## 引用
 润泽. 润泽说 道可道之金刚经：v1.0.2. 2026. https://doi.org/10.5281/zenodo.24222027
+
+## English
+- https://q1z2q3-debug.github.io/daokedao-jingang/english/ 三十二分英文短论索引（一分一篇，canonical 指回分页）
