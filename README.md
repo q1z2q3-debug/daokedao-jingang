@@ -109,3 +109,7 @@ https://github.com/q1z2q3-debug/daokedao-jingang
 ## 九、许可
 
 正文与图版采用 [CC BY-NC-SA 4.0](LICENSE)：署名、非商业、相同方式共享。
+
+## 商业使用
+
+本书公开层为 CC BY-NC-SA 4.0；商业训练、商业分发与第三方素材边界见 [`NOTICE.md`](NOTICE.md)。
