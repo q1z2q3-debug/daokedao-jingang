@@ -1,0 +1,60 @@
+# 润泽说 道可道之金刚经
+
+> 润泽（润泽博士）《道可道》系列读本。以「佛说 A — 即非 A — 是名 A」三段范式逐分拆解《金刚般若波罗蜜经》，一分七段，附五篇附录。全书约 7.8 万字。
+
+## 读本
+- 全书一页（阅读版，单文件）：https://q1z2q3-debug.github.io/daokedao-jingang/book.html
+- 三十二分（一分一页）：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/
+- 卷首·体例与总纲：https://q1z2q3-debug.github.io/daokedao-jingang/preface.html
+- 后记：https://q1z2q3-debug.github.io/daokedao-jingang/afterword.html
+- 附录（科判表、即非句式分布、空杯模型、一页纸金刚经）：https://q1z2q3-debug.github.io/daokedao-jingang/appendix.html
+- 下载（PDF / APK / Markdown 母本）：https://q1z2q3-debug.github.io/daokedao-jingang/downloads/
+- 仓库：https://github.com/q1z2q3-debug/daokedao-jingang
+- DOI：https://doi.org/10.5281/zenodo.24222027
+
+## 三十二分
+- 第1分 法会因由：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/01-fahuyinyou.html（2498 字）
+- 第2分 善现启请：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/02-shanxianqiqing.html（2900 字）
+- 第3分 大乘正宗：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/03-dachengzhengzong.html（2635 字）
+- 第4分 妙行无住：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/04-miaoxingwuzhu.html（2383 字）
+- 第5分 如理实见：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/05-rulishijian.html（2237 字）
+- 第6分 正信希有：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/06-zhengxinxiyou.html（3173 字）
+- 第7分 无得无说：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/07-wudewushuo.html（2407 字）
+- 第8分 依法出生：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/08-yifachusheng.html（2404 字）
+- 第9分 一相无相：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/09-yixiangwuxiang.html（2688 字）
+- 第10分 庄严净土：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/10-zhuangyanjingtu.html（2491 字）
+- 第11分 无为福胜：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/11-wuweifusheng.html（2255 字）
+- 第12分 尊重正教：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/12-zunzhongzhengjiao.html（2082 字）
+- 第13分 如法受持：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/13-rufashouchi.html（2372 字）
+- 第14分 离相寂灭：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/14-lixiangjimie.html（3094 字）
+- 第15分 持经功德：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/15-chijinggongde.html（2495 字）
+- 第16分 能净业障：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/16-nengjingyezhang.html（2379 字）
+- 第17分 究竟无我：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/17-jiujingwuwo.html（2855 字）
+- 第18分 一体同观：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/18-yititongguan.html（2930 字）
+- 第19分 法界通化：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/19-fajietonghua.html（1749 字）
+- 第20分 离色离相：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/20-liselixiang.html（1820 字）
+- 第21分 非说所说：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/21-feishuosuoshuo.html（1768 字）
+- 第22分 无法可得：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/22-wufakede.html（1796 字）
+- 第23分 净心行善：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/23-jingxinxingshan.html（2298 字）
+- 第24分 福智无比：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/24-fuzhiwubi.html（1812 字）
+- 第25分 化无所化：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/25-huawusuohua.html（1996 字）
+- 第26分 法身非相：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/26-fashenfeixiang.html（1813 字）
+- 第27分 无断无灭：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/27-wuduanwumie.html（1727 字）
+- 第28分 不受不贪：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/28-bushoubutan.html（1936 字）
+- 第29分 威仪寂静：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/29-weiyijingjing.html（1798 字）
+- 第30分 一合理相：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/30-yihelixiang.html（2263 字）
+- 第31分 知见不生：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/31-zhijianbusheng.html（2099 字）
+- 第32分 应化非真：https://q1z2q3-debug.github.io/daokedao-jingang/chapters/32-yinghuafeizhen.html（2486 字）
+
+## 事实
+- 底本：姚秦鸠摩罗什译《金刚般若波罗蜜经》，通行字句，异读另注。
+- 结构：序分（1–2）、正宗分（3–31）、流通分（32），昭明太子分题，逐分标明「标题非经」。
+- 体例：原文底本／分题释义／字源与名相／逐段深解／俗见勘破／般若范式＋跨典互参／小结。
+- 关键辨析：「即非」不是否定，是不执；读作「什么都没有」即落断灭空。
+- 许可：CC BY-NC-SA 4.0。
+
+## 引用
+润泽. 润泽说 道可道之金刚经：v1.0.2. 2026. https://doi.org/10.5281/zenodo.24222027
+
+## English
+- https://q1z2q3-debug.github.io/daokedao-jingang/english/ 三十二分英文短论索引（一分一篇，canonical 指回分页）
