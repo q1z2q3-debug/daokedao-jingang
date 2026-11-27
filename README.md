@@ -47,7 +47,7 @@
 | [`book/金刚经·阅读版.html`](book/金刚经·阅读版.html) | **阅读版**。单文件自包含，无外链、无脚本，离线可开 | 283 KB |
 | [`scripts/build_html.py`](scripts/build_html.py) | **构建脚本**。md → pandoc → 后处理 → 内嵌 CSS 模板，可复跑重建 | — |
 | [`book/润泽说 道可道之金刚经.pdf`](book/润泽说%20道可道之金刚经.pdf) | **A5 成书 PDF**。182 页，封面＋双栏目录＋32 分正文＋附录 | 1.5 MB |
-| [`packages/apk-1.0.2-jingang/道可道-金刚经-1.0.2.apk`](packages/apk-1.0.2-jingang) | **安卓离线包**。零权限、字体内置、断网可读 | 1.4 MB |
+| [`packages/apk-1.0.2-jingang/道可道-金刚经-1.0.2.apk`](packages/apk-1.0.2-jingang) | **安卓离线包**。零权限、字体内置、断网可读 | 2.7 MB |
 
 重跑构建：
 
